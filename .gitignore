@@ -1,0 +1,17 @@
+## RStudio Projects
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+## MACOS generated files
+*/.DS_Store
+.DS_Store
+.DS_Store?
+
+## ipynb related 
+.ipynb_checkpoints/
+
+## Large files 
+#.csv 
+#.tsv 
