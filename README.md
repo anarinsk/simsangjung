@@ -1,18 +1,23 @@
-# simsangjung
+# Purpose 
+
+본 리포지터리는 심상정 의원이 블로그에 공개한 자료에 기반을 두고 만들어 졌습니다.
+원자료 이외의 코드와 관련된 모든 문제는 제 책임입니다. 
 
 # Directory Structure 
 
 * raw_data: 아래 최초 입수처 파일 그대로 
 * code: 데이터 정리 코드 
+* rds: rds format for r 
+* csv: csv files preprocessed to melt and pivot data 
 
-# 분석 결과 
+# Analysis
 
 [여기](https://nbviewer.jupyter.org/github/anarinsk/simsangjung/blob/master/code/load_tidy.ipynb)
 
-# Working journal 
+# Working logs 
 
 ## 20180903 
 
 * [자료 최초 입수](https://m.blog.naver.com/PostView.nhn?blogId=713sim&logNo=221350785950&proxyReferer=https%3A%2F%2Ft.co%2FQYfrnFqnnO%3Famp%3D1)
 * 파일명 영문 전환 및 현재 github 구축 완료 
-* load_tidy.ipynb: 데이터 정리 코드 
+* load_tidy.ipynb: 데이터 정리 코드 & 기본 시각화 
