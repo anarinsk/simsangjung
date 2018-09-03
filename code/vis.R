@@ -1,4 +1,4 @@
-librarian::shelf(tidyverse, DescTools, ggsci, ggthemes)
+librarian::shelf(tidyverse, DescTools, ggsci, ggthemes, showtext)
 
 readRDS('./rds/df.rds') %>% 
   select(-index) %>% 
@@ -6,8 +6,7 @@ readRDS('./rds/df.rds') %>%
   mutate(
     q1000 = as.integer(quintile), 
     q100 = cut(quintile, breaks = 100) %>% as.integer(),
-    q10 = cut(quintile, breaks = 10) %>% as.integer(), 
-    
+    q10 = cut(quintile, breaks = 10) %>% as.integer()
     ) %>% 
   select(-quintile) -> tbl 
 
@@ -28,7 +27,6 @@ tbl %>%
   select(-variable) %>% 
   rename(income = value) -> income 
 
-
 df_by_q <- function(var,is_work, df=income){
   
   if(is_work == T){
@@ -45,25 +43,14 @@ df_by_q <- function(var,is_work, df=income){
       mean = value / sum(n)
     )
 }
-
-
-# 10분위 변화 
-
-df_by_q(q10, T) %>% 
-  ggplot() + 
-  aes(x = year, y = share, fill = factor(q10)) + 
-  geom_col(width = 0.7) 
-
-str_extract_all("q1000", "0-9")
-
-str_c(c('1', '2'), collapse = "") 
-
 generate_2016_q <- function(var){
   
   var_enq <- enquo(var)
   str_extract_all(deparse(substitute(var)), "[0-9]") %>% 
     unlist() %>%  
     str_c(collapse="") -> title
+  
+  showtext_auto() 
   
   df_by_q(!!var_enq, F) %>% 
   filter(!!var_enq %in% seq_len(10)) %>% 
@@ -73,22 +60,45 @@ generate_2016_q <- function(var){
   scale_x_discrete(limits=as.character(seq_len(10))) +
   facet_grid(cols = vars(cat)) + 
   labs(
-    title = str_glue("2016년 소득원천별 점유율 (상위 1~10분위, {title}분위 기준)"),  y = "%", x = "분위") + 
-  theme_bw()
+    title = str_glue("2016년 소득원천별 점유율 (상위 1-10분위, {title}분위 기준)"),  y = "%", x = "분위") + 
+  theme_bw() +
+  theme(text=element_text(size=10,  family="ng"))
+}
+generate_work_q <- function(var, q = seq_len(10)){
+  var_enq <- enquo(var)
+  str_extract_all(deparse(substitute(var)), "[0-9]") %>% 
+    unlist() %>%  
+    str_c(collapse="") -> title
+  df_by_q(!!var_enq, T) %>% 
+    filter(!!var_enq %in% q) %>% 
+    ggplot() + 
+    aes(x = year, y = share, fill = factor(!!var_enq)) + 
+    geom_col(width = 0.7) + 
+    scale_x_discrete(limits=c(2013,2014,2015,2016)) + 
+    theme_bw() + 
+    scale_fill_simpsons(name = "분위") + 
+    labs(
+      title = str_glue("노동소득 {title}분위 분배율 변화 (2013--2016)"),
+      x = "연도", 
+      y = "누적 %"
+    )
 }
 
-generate_2016_q(q100)
+font_add_google("Nanum Gothic", "ng") 
+#x11()
 
+generate_2016_q(q1000)
+generate_2016_q(q100)
+generate_2016_q(q10)
+generate_work_q(q10, seq(5,10,1))
 
 # gini 
-
-df_by_q(q10, T) %>% 
+df_by_q(q1000, T) %>% 
   summarise(
     gini = Gini(value)
   )
 
-df_by_q(q10, F) %>% 
+df_by_q(q1000, F) %>% 
   summarise(
     gini = Gini(value)
   )
-
