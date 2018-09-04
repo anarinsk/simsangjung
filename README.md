@@ -17,6 +17,8 @@
 
 # Working logs 
 
+여기 내용은 일종의 작업일지입니다. 이하는 굳이 참고하지 않으셔도 됩니다. 
+
 ## 20180903 
 
 * [자료 최초 입수](https://m.blog.naver.com/PostView.nhn?blogId=713sim&logNo=221350785950&proxyReferer=https%3A%2F%2Ft.co%2FQYfrnFqnnO%3Famp%3D1)
