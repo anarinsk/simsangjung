@@ -5,14 +5,15 @@
 
 # Directory Structure 
 
-* raw_data: 아래 최초 입수처 파일 그대로 
-* code: 데이터 정리 코드 
-* rds: rds format for r 
-* csv: csv files preprocessed to melt and pivot data 
+* [raw_data](https://github.com/anarinsk/simsangjung/tree/master/raw_data): 아래 최초 입수처 파일 그대로 
+* [code](https://github.com/anarinsk/simsangjung/tree/master/code): 데이터 정리 코드 
+* [rds](https://github.com/anarinsk/simsangjung/tree/master/rds): rds format for r 
+* [csv](https://github.com/anarinsk/simsangjung/tree/master/csv): csv files preprocessed to melt and pivot data 
 
 # Analysis
 
-[CLICK!](https://nbviewer.jupyter.org/github/anarinsk/simsangjung/blob/master/code/load_tidy.ipynb)
+코드와 간략한 분석 내용을 주피터 노트북으로 담았습니다. 
+[jupyter notebook](https://nbviewer.jupyter.org/github/anarinsk/simsangjung/blob/master/code/load_tidy.ipynb)
 
 # Working logs 
 
