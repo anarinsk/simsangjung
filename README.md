@@ -12,7 +12,7 @@
 
 # Analysis
 
-[여기](https://nbviewer.jupyter.org/github/anarinsk/simsangjung/blob/master/code/load_tidy.ipynb)
+[CLICK!](https://nbviewer.jupyter.org/github/anarinsk/simsangjung/blob/master/code/load_tidy.ipynb)
 
 # Working logs 
 
