@@ -27,6 +27,7 @@ Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 * 파일명 영문 전환 및 현재 github 구축 완료 
 * load_tidy.ipynb: 데이터 정리 코드 & 기본 시각화 
 
+&nbsp; 
 
 :feet:Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 <!--stackedit_data:
