@@ -1,4 +1,4 @@
-Jun Sok Huhh :house: [lostineconomics.com](http://lostineconomics.com)
+:feet: Jun Sok Huhh :house: [lostineconomics.com](http://lostineconomics.com)
 
 # Purpose 
 
@@ -27,7 +27,8 @@ Jun Sok Huhh :house: [lostineconomics.com](http://lostineconomics.com)
 * 파일명 영문 전환 및 현재 github 구축 완료 
 * load_tidy.ipynb: 데이터 정리 코드 & 기본 시각화 
 
-Jun Sok HUhh :house: [lostineconomics.com](http://lostineconomics.com)
+
+Jun Sok Huhh :house: [lostineconomics.com](http://lostineconomics.com)
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMTEwODc2NDcwMF19
 -->
