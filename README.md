@@ -1,4 +1,4 @@
-:feet: Jun Sok Huhh :house: [lostineconomics.com](http://lostineconomics.com)
+Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 
 # Purpose 
 
@@ -28,7 +28,7 @@
 * load_tidy.ipynb: 데이터 정리 코드 & 기본 시각화 
 
 
-Jun Sok Huhh :house: [lostineconomics.com](http://lostineconomics.com)
+:feet:Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMzk2Nzg3ODA0LDExMDg3NjQ3MDBdfQ==
 -->
