@@ -1,3 +1,5 @@
+:home: [lostineconomics.com](http://lostineconomics.com)
+
 # Purpose 
 
 본 리포지터리는 심상정 의원이 블로그에 공개한 자료에 기반을 두고 만들어 졌습니다.
