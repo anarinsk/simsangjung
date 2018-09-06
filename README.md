@@ -1,3 +1,6 @@
+**Korean Tax Info by Sang Jung Sim**
+
+2018-09-05
 Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 
 # Purpose 
