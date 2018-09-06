@@ -1,4 +1,4 @@
-Jun Sok HUhh :house: [lostineconomics.com](http://lostineconomics.com)
+Jun Sok Huhh :house: [lostineconomics.com](http://lostineconomics.com)
 
 # Purpose 
 
