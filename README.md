@@ -7,10 +7,19 @@ Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 
 # Purpose 
 
-본 리포지터리는 심상정 의원이 블로그에 공개한 자료에 기반을 두고 만들어 졌습니다.
+본 리포지터리는 심상정 의원이 블로그에 [공개한 자료](https://m.blog.naver.com/PostView.nhn?blogId=713sim&logNo=221350785950&proxyReferer=https%3A%2F%2Ft.co%2FQYfrnFqnnO%3Famp%3D1)에 기반을 두고 만들어 졌습니다.
 원자료 이외의 코드와 관련된 모든 문제는 제 책임입니다. 
 
-# Directory Structure 
+# Desc on data 
+
+* 자료는 모두 천분위 자료입니다. 하나의 데이터 셋 내에서 각 분위별로 명 수를 맞춰 추출된 자료입니다. 
+* 데이터 셋은 크게 두 종류입니다. 
+  * 근로소득: 2013년 ~ 2016년 (4개 년도)
+  * 이자소득, 배당소득 (2016년) 
+
+# Directories of repo  
+
+본 리포의 디렉토리 구조는 다음과 같습니다. 
 
 * [raw_data](https://github.com/anarinsk/simsangjung/tree/master/raw_data): 아래 최초 입수처 파일 그대로 
 * [code](https://github.com/anarinsk/simsangjung/tree/master/code): 데이터 정리 코드 
@@ -19,12 +28,12 @@ Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 
 # Analysis
 
-코드와 간략한 분석 내용을 주피터 노트북으로 담았습니다. 
+코드와 간략한 분석 내용을 주피터 노트북으로 담았습니다. 자세한 내용은 아래 링크를 참고하시기 바랍니다. 
 [jupyter notebook](https://nbviewer.jupyter.org/github/anarinsk/simsangjung/blob/master/code/load_tidy.ipynb)
 
 # Working logs 
 
-여기 내용은 일종의 작업일지입니다. 이하는 굳이 참고하지 않으셔도 됩니다. 
+이하 내용은 일종의 작업일지입니다. 굳이 참고하지 않으셔도 됩니다. 
 
 ## 20180903 
 
