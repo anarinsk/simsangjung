@@ -29,7 +29,8 @@ Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 # Analysis
 
 코드와 간략한 분석 내용을 주피터 노트북으로 담았습니다. 자세한 내용은 아래 링크를 참고하시기 바랍니다. 
-[jupyter notebook](https://nbviewer.jupyter.org/github/anarinsk/simsangjung/blob/master/code/load_tidy.ipynb)
+
+* [jupyter notebook](https://nbviewer.jupyter.org/github/anarinsk/simsangjung/blob/master/code/load_tidy.ipynb)
 
 # Working logs 
 
