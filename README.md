@@ -22,7 +22,7 @@ Jun Sok Huhh | :house:[lostineconomics.com](http://lostineconomics.com)
 본 리포의 디렉토리 구조는 다음과 같습니다. 
 
 * [raw_data](https://github.com/anarinsk/simsangjung/tree/master/raw_data): 아래 최초 입수처 원본파일
- * 작업을 위해 파일 이름만 알파벳으로 수정 
+    * 작업을 위해 파일 이름만 알파벳으로 수정 
 * [code](https://github.com/anarinsk/simsangjung/tree/master/code): 데이터 정리 코드 (ipynb)
 * [rds](https://github.com/anarinsk/simsangjung/tree/master/rds): rds format for r 
 * [csv](https://github.com/anarinsk/simsangjung/tree/master/csv): csv files preprocessed to melt and pivot data sets
